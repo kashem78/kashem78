@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify User can Login Successfully",
+        "description": "",
+        "id": "this-a-loging-feature;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1129041100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \u003c\"URL\"\u003e mad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 9
+                }
+              ],
+              "location": "Madison_LoginStep.launch_mad(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77070000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click madlogin",
+            "match": {
+              "location": "Madison_LoginStep.click_madlogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5229489000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type Username Password click Login",
+            "match": {
+              "location": "Madison_LoginStep.type_Username_Password_click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5406206200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User can Login Successfully",
+            "match": {
+              "location": "Madison_LoginStep.verify_User_can_Login_Successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 203525900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout the site",
+            "match": {
+              "location": "Madison_LoginStep.logout_the_site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Arham"
+          }
+        ]
+      }
+    ],
+    "name": "This a Loging Feature",
+    "description": "",
+    "id": "this-a-loging-feature",
+    "keyword": "Feature",
+    "uri": "Madison_Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify maduser can Signup successfully",
+        "description": "",
+        "id": "this-frature-is-to-create-new-account;verify-maduser-can-signup-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 450679900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch \u003c\"URL\"\u003e mad",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 9
+                }
+              ],
+              "location": "Madison_LoginStep.launch_mad(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56980100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Signup Link",
+            "match": {
+              "location": "Madison_SugnUP.click_on_Signup_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3190781100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type madUsername Password click Signup Button",
+            "match": {
+              "location": "Madison_SugnUP.type_madUsername_Password_click_Signup_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4047661500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User can Signup",
+            "match": {
+              "location": "Madison_SugnUP.verify_User_can_Signup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Kakon"
+          }
+        ]
+      }
+    ],
+    "name": "This frature is to create new Account",
+    "description": "",
+    "id": "this-frature-is-to-create-new-account",
+    "keyword": "Feature",
+    "uri": "Madison_SignUp.feature"
+  }
+]

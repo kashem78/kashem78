@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-08T23:34:10 EDT" name="Default suite" finished-at="2023-10-08T23:34:34 EDT" duration-ms="23307">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-08T23:34:10 EDT" name="Default test" finished-at="2023-10-08T23:34:34 EDT" duration-ms="23307">
+      <class name="Madison_TestRunner.Madison_TestRunner">
+        <test-method is-config="true" signature="madStartURL()[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:10 EDT" name="madStartURL" finished-at="2023-10-08T23:34:13 EDT" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- madStartURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:13 EDT" name="setUpClass" finished-at="2023-10-08T23:34:13 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:13 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-08T23:34:26 EDT" duration-ms="12115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This a Loging Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:26 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-08T23:34:33 EDT" duration-ms="7750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This frature is to create new Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:33 EDT" name="tearDownClass" finished-at="2023-10-08T23:34:33 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="madCloserURL()[pri:0, instance:Madison_TestRunner.Madison_TestRunner@5c80cf32]" started-at="2023-10-08T23:34:33 EDT" name="madCloserURL" finished-at="2023-10-08T23:34:34 EDT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- madCloserURL -->
+      </class> <!-- Madison_TestRunner.Madison_TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
